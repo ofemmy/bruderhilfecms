@@ -15,5 +15,12 @@ export default {
     },
     { name: "position", title: "Position", type: "string" },
     { name: "bio", title: "Bio", type: "array", of: [{ type: "block" }] },
+    {
+      name: "orderNum",
+      title: "Ordering Number",
+      type: "number",
+      description:
+        "This field determines the order in which the items are displayed on the front end",
+    },
   ],
 };
